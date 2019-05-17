@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none; 
+    text-decoration: none;
+
+}
+html{
+    background-color: rgb(61, 60, 60);
+}
+body{
+    width: calc(100% - -7px);
+    height: 100%;
+    line-height: 110%;
+    font-family: sans-serif;
+
+}
+p {
+    margin-top:17px;
+    margin-left: -1em; 
+}
+/*header footer */
+#field {
+    padding: 1px;
+    height: 25px;
+    border-radius: 5px;
+    float: left;
+    margin-left: -52em;
+    margin-top: 25px
+}
+#field:focus{ border:2px solid rgb(185, 231, 58) }
+#qidirish {
+    color: rgb(12, 26, 223);
+    height: 25px;
+    margin-left: -37.5em;
+    float:left;
+    margin-top: 25px;
+}
+header{
+    width: calc(100% + 3.5px) ;
+    height: 75px;
+    background-color:rgb(38, 70, 156);
+    border-bottom: -2px solid silver;
+    font-size: 1.2em;
+    padding: 1px;
+    color: rgb(255, 255, 255);
+    font-family: Comic Sans MS;
+    float: left;
+    margin-top: -10px;
+    margin-left: -7px;
+}
+
+footer{
+    width:calc(100% + 3.5px);
+    height: 100px;
+    background-color:rgb(66, 64, 64);
+    border-top: -2px solid silver;
+    padding: 10px;
+    margin-top: 1px;
+    margin-left: -6px;
+    font-size: 1.2em;
+    color:rgb(2, 2, 2);
+    font-family: Comic Sans MS;
+    float: left;
+} 
+input:focus{ border:2px solid rgb(185, 231, 58) }
+/*block*/
+#blok{ 
+    padding: 5px;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    width: 28em;
+    height: 40px;
+    border: 1px solid silver;
+    border-radius:5px ;  
+    background-color: rgb(216, 214, 214);
+    color:black;
+}
+article{
+    width: calc(100% + -1px);
+    height: 90em;
+    border: 1px solid silver;
+    margin-top: 1px;
+    background-color: rgb(236, 233, 233);
+    box-sizing: border-box;
+    float: left;
+    padding: 1%;
+
+}
+#qoshiqlar{
+    margin-top: 30px;
+    padding: 4px;
+    width: 45%;
+    height: 83em;
+    border: 2px solid rgb(38, 70, 156);
+}
+
+/*HEADER */
+.royxat {
+    float: left;
+    margin-top:25px;
+    margin-left: 40em;
+    text-decoration: none;
+    color: rgb(185, 231, 58);
+}
+
+.royxat:hover {
+    color: rgb(248, 0, 0)
+}
+
+#tel{
+    color:rgb(185, 231, 58);
+    text-decoration: none;
+    float: left;
+    margin-left: 30em;
+}
+
+#tel:hover{
+    color:red;
+}
+
+.html:first-letter{
+color:rgb(255, 0, 0);
+}
+
+.html{
+    float: left;
+    margin-top:25px;
+    margin-left:1em;
+    color: white;
+    text-decoration: none;
+}
+
+.html:active{
+    color: red;
+    text-decoration: none;
+}
+
+.kirish{
+    margin-top:25px;
+    float: left;
+    color: rgb(185, 231, 58);
+    text-decoration: none;
+    margin-left: 20px;
+}
+.kirish:hover{
+    color: red;
+    text-decoration: none;
+}
+
+::selection{
+    background-color:rgb(238, 99, 99);
+    color: white;
+}
+
+a:hover{
+    color:rgb(14, 156, 14);
+} 
+
+a {
+    color:rgb(231, 58, 58);
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition:all.6s ease;}
+
+    footer{
+        color: rgb(218, 216, 216);
+    }
+    #tg{
+        Color:rgb(185, 231, 58)
+    }
+    #tg:hover{
+        Color:rgb(238, 35, 9)
+    }
+/*BO`LIMLAR*/
+
+#bolimlar{
+    text-align: center;
+    color:blue;
+}
+.hr{
+    width: 75%;
+    margin-left: 15%;
+}
+
+#bizga{
+    float: left;
+    margin-top:-15px;
+    margin-left:500px;
+    color:rgb(32, 65, 155);
+    text-decoration: none;
+}
+#bizga:active{
+    color:red;
+}
+#bizga:hover{
+    color:blue;
+    background-color: #c9c7c7;
+}
+
+/*xabar yozish*/
+
+#textarea{
+width:600px;
+height: 200px;
+}
+
+
+/*REGISTRATSIYA*/
+
+.text{
+    width: 155px;
+    margin-left: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.emaill{
+    margin-left: 1em;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.password{
+    margin-left: 1em;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.tel{
+    margin-left: 1em;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.textt{
+    margin-left: 1em;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#jonatmoq{
+    background: rgb(38, 70, 156);
+    color:rgb(185, 231, 58);
+    font-size: 1.6em;
+    width: 400px;
+    height: 100px;
+    margin-left: 16em;
+    float: left;
+    margin-top: 15px;
+}
+
+#jonatmoq:hover{
+    background-color: rgb(10, 67, 224);
+}
+
+
+
+

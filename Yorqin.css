@@ -1,0 +1,28 @@
+html{
+    font-family: Comic sans MS;
+    color: rgb(238, 71, 71);
+
+}
+p{
+    float: left;
+    margin-top:20px;
+}
+#videoblok{
+    height: 25em;
+    width: 21.5em;
+    border: 1px solid rgb(0, 0, 0);
+    float: left;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.videoblok{
+    height: 19em;
+    width: 21.1em;
+    border: 1px solid black;
+    float: left;
+    margin-left: 1px;
+}
+article{
+    background: #c5c4c4
+}
